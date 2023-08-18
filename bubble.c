@@ -52,7 +52,7 @@ void magica2(long int n, int **ptr) {
   
 int main() //Questão 0- Verifique se as funções estão funcionando corretamente. Se não, faça a correção.
               //      - Estude o código.
-              //      - Altere o valor de n para 1000000. O que pode estar acontecendo para 
+              //      - Altere o valor de n para 1000000. O que pode estar acontecendo com o código?
 { 
     // vector size
     int n = 100; 
