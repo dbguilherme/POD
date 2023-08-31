@@ -11,7 +11,9 @@
 
 //3- Quais são as diferenças entre os métodos bubble e insertion sort? 
 
-//4- Existe algum caso em que o buble é melhor que o sort em número de comparações? 
+//4- Existe algum caso em que o buble é melhor que o sort em número de comparações?
+
+//5 - Compute o tempo para fazer o ordenamento de um mesmo vetor randômico com 100000 valores usando o bubble e o insertion. 
 
 void sort(int n, int* ptr){
 
