@@ -3,6 +3,16 @@
 #include <time.h>
 
 
+//Questões para serem entregues. 
+
+//1- Rode o código e verifique se está funcionando corretamente a partir do debug. 
+
+//2- Crie uma variável para indicar quantas operações de comparação foram executadas pelo algortimo de bublle e pelo Insertion. Para a mesma entrada de 10000 elementos quantas comparações foram realizadas? 
+
+//3- Quais são as diferenças entre os métodos bubble e insertion sort? 
+
+//4- Existe algum caso em que o buble é melhor que o sort em número de comparações? 
+
 void sort(int n, int* ptr){
 
     int i,j, min, t;
@@ -13,15 +23,12 @@ void sort(int n, int* ptr){
         for (j=i; j>=1 && min< ptr[j-1];j--){
             ptr[j]=ptr[j-1];
            
-        }
-        if (i-j>0)
-           contador=i-j;
+        }   
         ptr[j]=min;
     }
     printf("sort vector\n");
     for (int i=0;i<n;i++){
         printf("%d ", ptr[i]);
-
     }
     printf("contador %i", contador);
 }
@@ -36,14 +43,10 @@ int main()
     int *vet = (int*)malloc(n * sizeof(int));
     srand(time(NULL));
 
-    vet[0]=3;
-    vet[1]=4;
-    vet[2]=5;
-    vet[3]=6;
-    vet[4]=7;
-    // for (int i=0; i< n; i++){
-    //     vet[i]=(rand()%100);
-    // }    
+   
+    for (int i=0; i< n; i++){
+        vet[i]=(rand()%100);
+    }    
     
     clock_t begin = clock();    
     sort(n, vet); 
@@ -53,5 +56,6 @@ int main()
     return 0; 
 } 
 
-// Crie uma variável para indicar quantas operações de troca foi executado pelo algortimo de buble e pelo Insertion. Para a mesma entrada de 10000 elementos quantas trocas foram realizadas? 
+
+
 
