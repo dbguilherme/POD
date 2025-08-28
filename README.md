@@ -1,3 +1,3 @@
-# POD
+# EDII
 
- Este repositório irá conter os códigos e materiais referentes ao CCR de Pesquisa e Ordenação de Dados  2025/2 (EDII). 
+ Este repositório irá conter os códigos e materiais referentes ao CCR de Estrutura de dados II  2025/2 (EDII). 
