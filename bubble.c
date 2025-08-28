@@ -73,7 +73,7 @@ int main() //Questão 0- Verifique se as funções estão funcionando corretamen
     printf("\n end time: %f", time_spent);
 
 
-   // Questão 3 - O que teremos que mudar para que função magina2 passe por parametro um ponteiro duplo 
+   // Questão 3 - O que acontece se a função magica2 for chamada com o argumento &vet ao invés de vet?
     begin = clock();    
    // magica2(n, &vet);
     end = clock();
